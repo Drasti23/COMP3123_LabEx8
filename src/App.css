@@ -36,3 +36,257 @@
     transform: rotate(360deg);
   }
 }
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 15px;
+}
+
+
+input, select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.email-name-group {
+  display: flex;
+  gap: 10px;
+}
+
+.email-name-group input {
+  flex: 1;
+}
+
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.form-container {
+  border: 2px solid green; /* Green border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Space between border and form elements */
+  max-width: 500px; /* Limit the width of the form */
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Spacing between form fields */
+}
+
+input, select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.email-name-group {
+  display: flex;
+  gap: 10px;
+}
+
+.email-name-group input {
+  flex: 1;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.email-name-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.full-width {
+  margin-bottom: 15px;
+}
+
+.city-province-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.submitted-data {
+  margin-top: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  border: 2px solid green;
+}
+
+.data-table td {
+  padding: 10px;
+  border: 1px solid green;
+}
+
+.green-text {
+  color: green;
+  font-weight: bold;
+}
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.email-name-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.full-width {
+  margin-bottom: 15px;
+}
+
+.city-province-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.data-table {
+  max-width: 400px; 
+  width: 100%; 
+  border-collapse: collapse;
+  border: 2px solid green;
+  margin: 0 auto; 
+}
+
+.data-table td {
+  padding: 10px;
+  border: 1px solid green;
+}
+
+.green-text {
+  color: green;
+  font-weight: bold;
+}
